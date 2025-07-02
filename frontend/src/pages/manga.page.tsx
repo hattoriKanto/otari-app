@@ -1,3 +1,10 @@
+import HeaderModule from "@/modules/header/header.module";
+
 export default function MangaPage() {
-  return <h1>Manga Page</h1>;
+  return (
+    <>
+      <HeaderModule />
+      <h1>Manga Page</h1>
+    </>
+  );
 }

@@ -1,3 +1,10 @@
+import HeaderModule from "@/modules/header/header.module";
+
 export default function AnimePage() {
-  return <h1>Anime Page</h1>;
+  return (
+    <>
+      <HeaderModule />
+      <h1>Anime Page</h1>
+    </>
+  );
 }
